@@ -1,0 +1,24 @@
+name: tokas_app
+description: Aplikasi TOKAS - Toko Barang Bekas Berkualitas
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahkan package lain di sini kalau perlu, misalnya:
+  # cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
